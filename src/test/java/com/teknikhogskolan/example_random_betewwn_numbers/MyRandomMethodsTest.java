@@ -29,3 +29,13 @@ public class MyRandomMethodsTest {
 	public void testbetween31And40() {
 		int result = mrm.randomBetween31And40();
 		assertTrue((result >= 31) && (result <=40));
+	}
+	
+	@Test
+	public void testbetween41And50() {
+		int result = mrm.randomBetween41And50();
+		assertTrue((result >= 41) && (result <=50));
+		
+	}
+}
+	
