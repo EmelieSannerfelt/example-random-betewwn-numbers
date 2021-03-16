@@ -24,5 +24,6 @@ public class Main {
 		for (int i = 0; i < 30; i++) {
 			System.out.println(mrm.randomBetween41And50() +", ");
 		}
-}
+		
+	}
 }
